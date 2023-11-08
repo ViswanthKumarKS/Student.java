@@ -18,17 +18,29 @@
             <div class="col-md-6">
                 <h4 class="text-center">Registration Details</h4>
                 <br/>
-                <ul class="list-unstyled">
-                    <li><strong>Firstname:</strong> ${Firstname}</li>
-                    <br/>
-                    <li><strong>Lastname:</strong> ${Lastname}</li>
-                    <br/>
-                    <li><strong>Country:</strong> ${Country}</li>
-                    <br/>
-                    <li><strong>Language:</strong> ${Language}</li>
-                    <br/>
-                    <li><strong>OS:</strong> ${Os}</li>
-                </ul>
+                <table class="table table-bordered">
+                <thead>
+                    <tr>
+                      <th scope="col">FirstName</th>
+                      <th scope="col">Lastname</th>
+                      <th scope="col">Country</th>
+                      <th scope="col">Language</th>
+                      <th scope="col">Os</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                      <tr class="table-active">
+
+                        <td>${Firstname}</td>
+                        <td>${Lastname}</td>
+                        <td>${Country}</td>
+                        <td>${Language}</td>
+                        <td>${Os}</td>
+                      </tr>
+                      </tbody>
+
+                                </table>
+
             </div>
         </div>
     </div>
